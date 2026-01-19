@@ -3,17 +3,17 @@ export default class MyFirstWebComponent extends LightningElement {
     @track
     contacts = [
         {
-            Id: 1,
+            Id: 0,
             Name: 'Amy Taylor',
             Title: 'VP of Engineering',
         },
         {
-            Id: 2,
+            Id: 1,
             Name: 'Michael Jones',
             Title: 'VP of Sales',
         },
         {
-            Id: 3,
+            Id: 2,
             Name: 'Jennifer Wu',
             Title: 'CEO',
         },
