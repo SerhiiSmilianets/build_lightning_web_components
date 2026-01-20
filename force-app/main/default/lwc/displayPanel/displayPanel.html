@@ -1,0 +1,16 @@
+<template>
+  <div class="display-panel">
+    <template if:true={errors}>
+      <div class="error-section">
+        <h3>Errors</h3>
+        <p>{errors}</p>
+      </div>
+    </template>
+    <template if:true={notes}>
+      <div class="notes-section">
+        <h3>Notes</h3>
+        <p>{notes}</p>
+      </div>
+    </template>
+  </div>
+</template>
